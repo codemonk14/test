@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  annotations:
+    github.com/project-slug: codemonk14/s3-backstag
+    backstage.io/techdocs-ref: dir:.
+  title: 'IA for Instance Automation' # you can give any title
+  description: An example of a Instance Creation. # Change Description accordingly
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
